@@ -1,0 +1,475 @@
+body{
+    background-color: rgb(243, 241, 243);
+
+}
+
+.navegador li a{
+     padding-bottom: 10px;
+     text-decoration: none;
+     color: white;
+     height: 50px;
+     width: 120px;
+     background-color: rgb(247, 26, 92);
+     text-align: center;
+     border-radius: 5px;
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+     justify-content: space-around;
+ }
+
+ .navegador ul{
+     list-style: none;
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+ }
+
+ .navegador {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+header h2{
+    font-size: larger;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.buscador {
+    padding-top: 10px;
+}
+
+ul .canciones{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+ul .discos{ 
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+ul .cantantes{ 
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.aCancion{
+    text-decoration: none;
+    color: black;
+}
+
+.aDiscos{
+    text-decoration: none;
+    color: black;
+}
+
+.aCantantes{
+    text-decoration: none;
+    color: black;
+}
+
+.detailartist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+article.artist img{
+    width: inherit;
+    margin-top: 10px;
+    height: 250px;
+    object-fit: cover;
+}
+
+article.artist > li{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+article.artist > h1{
+    margin: 3px 0px;
+}
+
+article.artist > h3{
+    margin: 3px 0px;
+}
+
+article.artist{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+
+.artist {
+    box-sizing: border-box;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    width: 250px;
+    margin: 10px 20px;
+}
+
+
+img {
+    width: 280px;
+    border-radius: 100px;
+}
+
+h1 {
+    font-family: 'Beau Rivage', cursive;
+}
+
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+li {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.19);
+}
+
+.discos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.disco{
+    width: 250px;
+    margin: 30px;
+}
+
+.disco-img{
+    width: inherit;
+}
+
+.genre{
+    height: 30px;
+}
+
+.tab{
+    margin-right: 15px;
+}
+
+.home-list-element{
+    width: 250px;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.home-img{
+    width: inherit;
+    margin-top: 10px;
+    height: 250px;
+    object-fit: cover;
+}
+
+article.cantantes li{
+    width: 250px;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+article.cantantes li img{
+    width: inherit;
+    margin-top: 10px;
+    height: 250px;
+    object-fit: cover;
+}
+
+article.canciones > li{
+    width: 250px;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+article.canciones > li > img {
+    width: inherit;
+    height: 250px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+section.tab-songs{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+article.songs{
+    width: 300px;
+    text-align: center;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+
+article.songs img{
+    width: inherit;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+article.songs > audio {
+    width: inherit;
+}
+
+.playlist{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.IndexCanciones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.IndexDiscos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.IndexArtistas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.ListaGeneros{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.playlist playlist-songs{
+    width: 300px;
+}
+
+.EnlacesDiscos{
+    text-decoration: none;
+    color: black;
+}
+
+.ListaGeneros{
+    list-style: none;
+}
+
+.FotoLogo {
+    width: 100px;
+}
+
+@media (max-width: 390px) {
+    article.canciones > li{
+        width: 150px;
+        text-align: center;
+        margin: 15px 0px;
+    }
+    
+    article.canciones > li > img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        margin-top: 3px;
+    }
+
+    .home-list-element{
+        width: 150px;
+        text-align: center;
+        margin: 15px 0px;
+    }
+    
+    .home-img{
+        width: 100px;
+        margin-top: 3px;
+        height: 100px;
+        object-fit: cover;
+    }
+    
+    
+    article.cantantes li{
+    width: 150px;
+    text-align: center;
+    margin: 15px 0px;
+    }
+
+    article.cantantes li img{
+    width: 100px;
+    margin-top: 10px;
+    height: 100px;
+    object-fit: cover;
+    }
+
+    .detailartist {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    article.artist img{
+        width: 100px;
+        height: 100px;
+        margin: 0px;
+        object-fit: cover;
+    }
+    
+    article.artist > li{
+        width: 100%;
+        text-align: center;
+        margin-top: 15px 0px;
+    }
+    
+    article.artist > h1{
+        text-align: center;
+    }
+    
+    article.artist > h3{
+        text-align: center;
+        height: 90px;
+        word-break: break-word;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    article.artist{
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center
+    }
+    
+    
+    .artist {
+        box-sizing: border-box;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+        width: 100px;
+        margin: 10px 20px;
+    }
+
+    .discos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .disco{
+        width: 130px;
+        margin: 20px;
+    }
+
+    .disco > ul {
+        padding-left: 15px;
+    }
+
+    .disco > li {
+        list-style-type: none;
+    }
+    
+    .disco-img{
+        width: 90px;
+        margin-top: 50px;
+    }
+    
+    .genre{
+        height: 20px;
+    }
+
+    section.tab-songs{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        text-align: center;
+    }
+    
+    article.songs{
+        width: 100px;
+        text-align: center;
+        margin: 10px 0px;
+        justify-content: space-around;
+    }
+    
+    article.songs img{
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        margin-top: 10px;
+    }
+    
+    article.songs > audio {
+        width: inherit;
+        align-items: center;
+        margin: 15px;
+    }
+
+    .navegador li.tab {
+        margin: 5px 5px;
+        width: 120px;
+        height: 50px;
+        background-color: pink;
+        border-radius: 30px;
+    }
+
+    li.tab h3 {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+    }
+
+    .navegador li a{
+        padding-bottom: 10px;
+        text-decoration: none;
+        color: white;
+        height: inherit;
+        width: inherit;
+        background-color: transparent;
+        text-align: center;
+    }
+
+    .navegador li a h3{
+        font-size: 15px;
+    }
+   
+    .navegador ul{
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .playlist{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .playlist-songs{
+        width: 300px;
+        text-align: center;
+    }
+
+}
+
